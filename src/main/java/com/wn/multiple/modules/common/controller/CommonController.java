@@ -20,4 +20,10 @@ public class CommonController extends BaseController {
         commonService.total();
         return R.ok();
     }
+
+    @PostMapping("/role")
+    public R role() {
+        commonService.role();
+        return R.ok();
+    }
 }
